@@ -1,0 +1,20 @@
+# Name of the GitHub Check that is created
+checksName: jira/issue-validator
+
+# Check PR Labels for Jira issue
+checkPRLabels: false
+
+# Check PR Body for Jira issue
+checkPRBody: true
+
+# Check PR Title for Jira issue
+checkPRTitle: true
+
+# Check all commit messages for a Jira issue
+checkCommitMessages: true
+
+# List of Jira statuses that an issue must be in in order to pass
+issueStatuses: ['Open', 'To Do', 'In Progress']
+
+# Comment on the PR in addition to the check message?
+commentOnPull: false
